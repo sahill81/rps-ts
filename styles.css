@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+
+.main-container{
+    height: 100vh;
+}
+.choices{
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    border: 1px solid black;
+    margin: 10px 20px;
+}
+.selection{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 50%;
+    border: 1px solid black;
+    margin: 10px 20px;
+}
+.computer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid black;
+    margin: 10px 20px;
+}
+
+.start-button{
+    display: flex;
+    justify-content: center;
+}
+
+.start-button button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px  400px;
+
+}

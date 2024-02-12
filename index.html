@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="main-container">
+    <div class="choices">
+        <div class="player">
+            <div class="plyer-img">
+                player image
+            </div>
+            <div class="selection">
+            <button id="Rock" onclick="playerChoice(event)">Rock</button>
+            <button id="Paper" onclick="playerChoice(event)">Paper</button>
+            <button id="Scissors" onclick="playerChoice(event)">Scissors</button>
+            </div>
+           </div>
+           <div id="computer" class="computer">
+            computer
+           </div>  
+    </div>
+    <div class="start-button">
+        <button onclick="computersChoice(event)">Play</button>
+    </div>
+
+    <div class="result">
+        <div id="stat"></div>
+        <div id="score">
+            <div id="userScore">
+
+            </div>
+            <div id="compScore">
+
+            </div>
+        </div>
+
+    </div>
+
+   </div>
+    <script src="./dist/script.js"></script>
+</body>
+</html>
